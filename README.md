@@ -21,3 +21,7 @@ URL for six methods are specified below
 * PUT [http://45.32.123.12:8080/subscribeUpdates]
 * PUT [http://45.32.123.12:8080/blockUpdates]
 * GET [http://45.32.123.12:8080/retrieveEmailAddress]
+
+
+### Note: 
+I could also have used "Spring Boot + Singleton design pattern" to obtain a better performance. But keeping in mind the server issues, data would be purged everytime server restarts if I use this approach. So I felt it is better to use DB to handle data in order to maintain consistency. Hence, I used 'Spring Boot + Hibernate + MySQL' approach.
