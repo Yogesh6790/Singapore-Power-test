@@ -1,4 +1,4 @@
-# Singapore Power test
+# SpringBoot-Hibernate-MySQL
 I've basically used Spring Boot + Hibernate + MySQL to develop this RestFul server,
 By using these technologies, I was able to use their benefits like
   - Dependency injection
